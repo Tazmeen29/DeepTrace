@@ -1,0 +1,4 @@
+checkpoints/*.onnx filter=lfs diff=lfs merge=lfs -text
+checkpoints/*.pth filter=lfs diff=lfs merge=lfs -text
+models/best_xception_finetuned.keras filter=lfs diff=lfs merge=lfs -text
+models/best_xception_inference.onnx filter=lfs diff=lfs merge=lfs -text

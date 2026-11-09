@@ -1,0 +1,16 @@
+wget
+timm
+torch
+tensorflow
+moviepy
+librosa
+ffmpeg
+albumentations
+opencv-python>=4.8,<5
+torchsummary
+onnx
+onnx2pytorch
+gradio==6.29.1
+fastapi
+uvicorn
+python-multipart
