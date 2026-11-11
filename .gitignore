@@ -1,18 +1,21 @@
-
-# Virtual environment
+# Python virtual environments
 venv/
+xception_env/
 .venv/
 
 # Python cache
 __pycache__/
-*.py[cod]
+*.pyc
 
-# Backup files
-app.py.backup
-
-# Environment secrets
+# Environment variables
 .env
 
-# Local databases
-*.db
-*.sqlite3
+# IDE files
+.vscode/
+
+# Temporary files
+*.log
+
+app.py.backup
+data/*.sqlite3
+
